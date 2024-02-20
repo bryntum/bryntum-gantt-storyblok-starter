@@ -1,6 +1,6 @@
 # Bryntum Gantt with Next.js quickstart
 
-This repository contains starter to get you up and running wwith your Bryntum Gnatt with Next.js project.
+This repository contains starter code to get you up and running with your Bryntum Gnatt with Next.js project.
 
 ## Requirements
 
