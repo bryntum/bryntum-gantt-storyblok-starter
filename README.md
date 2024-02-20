@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Bryntum Gantt with Next.js quickstart
+
+This repository contains starter to get you up and running wwith your Bryntum Gnatt with Next.js project.
+
+## Requirements
+
+The Next.js starter code requires [Node.js 18.17](https://nodejs.org/) or higher.
+Bryntum Gantt requires React `16.0.0` or higher, and for applications written in TypeScript, TypeScript `3.6.0` or higher.
 
 ## Getting Started
 
-First, run the development server:
+Install the Next.js dependencies by running the following command:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```shell
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Installing the Bryntum Gantt component using npm is the quickest way to use our products. First, get access to the Bryntum private npm registry by following the [guide in our docs](https://bryntum.com/products/gantt/docs/guide/Gantt/npm-repository#repository-access). Once you’ve logged into the registry, install the Bryntum Gantt component.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+If you have a Bryntum license, use the following command:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```shell
+npm install @bryntum/gantt @bryntum/gantt-react
+```
 
-## Learn More
+If you are trying out our component, install the trial version:
 
-To learn more about Next.js, take a look at the following resources:
+```shell
+npm install @bryntum/gantt@npm:@bryntum/gantt-trial @bryntum/gantt-react
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Run the application
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Run the local development server:
 
-## Deploy on Vercel
+```shell
+npm run dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+You'll see your Bryntum Gantt app at the following URL: [http://localhost:3000](http://localhost:3000/).
