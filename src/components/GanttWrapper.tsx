@@ -20,13 +20,6 @@ const Gantt = dynamic(() => import("./Gantt"), {
 });
 
 const GanttWrapper = () => {
-  return (
-    <>
-      <Gantt
-        {...ganttConfig}
-        // other props
-      />
-    </>
-  );
+  return <Gantt {...ganttConfig} />;
 };
 export { GanttWrapper };
