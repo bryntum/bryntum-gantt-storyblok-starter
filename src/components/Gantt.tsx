@@ -11,6 +11,9 @@ export default function Gantt({ ...props }) {
       },
     },
     autoLoad: true,
+    // This config enables response validation and dumping of found errors to the browser console.
+    // It's meant to be used as a development stage helper only so please set it to false for production.
+    validateResponse: true,
   });
   const ganttRef = useRef<BryntumGantt>(null);
 
