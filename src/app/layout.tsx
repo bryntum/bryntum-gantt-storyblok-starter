@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import StoryblokProvider from "@/components/StoryblokProvider";
+import StoryDataProvider from "@/contexts/StoryData.context";
 
 export const metadata: Metadata = {
   title: "Getting started with Bryntum Gantt in Next.js",
@@ -12,8 +14,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
+    <StoryblokProvider>
+      <StoryDataProvider>
+        <html lang="en">
+          <body>{children}</body>
+        </html>
+      </StoryDataProvider>
+    </StoryblokProvider>
   );
 }

@@ -1,0 +1,146 @@
+{
+  "components": [
+    {
+      "name": "gantt",
+      "display_name": null,
+      "created_at": "2024-08-07T11:07:43.113Z",
+      "updated_at": "2024-08-07T11:07:50.710Z",
+      "id": 6139178,
+      "schema": {
+        "tasks": {
+          "type": "bloks",
+          "pos": 0
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": true,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "gantt",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null,
+      "internal_tags_list": [],
+      "internal_tag_ids": [],
+      "content_type_asset_preview": null
+    },
+    {
+      "name": "header",
+      "display_name": null,
+      "created_at": "2024-08-06T10:58:36.963Z",
+      "updated_at": "2024-08-06T11:01:20.802Z",
+      "id": 6134314,
+      "schema": {
+        "title": {
+          "type": "text",
+          "pos": 0
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "header",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null,
+      "internal_tags_list": [],
+      "internal_tag_ids": [],
+      "content_type_asset_preview": null
+    },
+    {
+      "name": "page",
+      "display_name": null,
+      "created_at": "2024-08-06T10:08:19.111Z",
+      "updated_at": "2024-08-06T10:08:19.111Z",
+      "id": 6134083,
+      "schema": {
+        "body": {
+          "type": "bloks"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": true,
+      "preview_tmpl": null,
+      "is_nestable": false,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "page",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null,
+      "internal_tags_list": [],
+      "internal_tag_ids": [],
+      "content_type_asset_preview": null
+    },
+    {
+      "name": "task",
+      "display_name": null,
+      "created_at": "2024-08-07T11:00:50.876Z",
+      "updated_at": "2024-08-07T11:07:29.959Z",
+      "id": 6139161,
+      "schema": {
+        "id": {
+          "type": "text",
+          "pos": 0
+        },
+        "name": {
+          "type": "text",
+          "pos": 1
+        },
+        "percentDone": {
+          "type": "number",
+          "pos": 2
+        },
+        "startDate": {
+          "type": "datetime",
+          "pos": 3
+        },
+        "endDate": {
+          "type": "datetime",
+          "pos": 4
+        },
+        "manuallyScheduled": {
+          "type": "boolean",
+          "pos": 5,
+          "default_value": true
+        },
+        "effort": {
+          "type": "number",
+          "pos": 6
+        },
+        "draggable": {
+          "type": "boolean",
+          "pos": 7,
+          "default_value": true
+        },
+        "resizable": {
+          "type": "boolean",
+          "pos": 8,
+          "default_value": true
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "task",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null,
+      "internal_tags_list": [],
+      "internal_tag_ids": [],
+      "content_type_asset_preview": null
+    }
+  ]
+}

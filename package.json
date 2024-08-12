@@ -6,11 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "proxy": "mkcert -install && mkcert localhost && local-ssl-proxy --source 3010 --target 3000 --cert localhost.pem --key localhost-key.pem",
+    "pull-sb-components": "storyblok pull-components --space 299677",
+    "generate-sb-types": "storyblok generate-typescript-typedefs --sourceFilePaths ./components.299677.json --destinationFilePath ./component-types-sb.d.ts"
   },
   "dependencies": {
     "@bryntum/gantt": "^6.0.4",
     "@bryntum/gantt-react": "^6.0.4",
+    "@storyblok/react": "^3.0.10",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18"

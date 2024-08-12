@@ -1,9 +1,12 @@
-body,
-html {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    font-family: Poppins, "Open Sans", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#b-gantt-1 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-size: 14px;
 }
